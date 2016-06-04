@@ -1,0 +1,49 @@
+'.source.js, .source.jsx':
+
+  'Js console.count()':
+    'prefix': 'cc'
+    'body': 'console.count(${1:message});$0'
+
+  'Js console.dir()':
+    'prefix': 'cd'
+    'body': 'console.dir(${1:message});$0'
+
+  'Js console.error()':
+    'prefix': 'ce'
+    'body': 'console.error();$0'
+
+  'Js console.group()':
+    'prefix': 'cg'
+    'body': 'console.group(${1:message});$0'
+
+  'Js console.groupEnd()':
+    'prefix': 'cge'
+    'body': 'console.groupEnd();$0'
+
+  'Js console.info()':
+    'prefix': 'ci'
+    'body': 'console.info(${1:message});$0'
+
+  'Js console.log()':
+    'prefix': 'cl'
+    'body': 'console.log(${1:message});$0'
+
+  'Js console.table()':
+    'prefix': 'ctb'
+    'body': 'console.table(${1:message});$0'
+
+  'Js console.time()':
+    'prefix': 'ct'
+    'body': 'console.time(${1:message});$0'
+
+  'Js console.timeEnd()':
+    'prefix': 'cte'
+    'body': 'console.timeEnd(${1:message});$0'
+
+  'Js console.trace()':
+    'prefix': 'ctr'
+    'body': 'console.trace();$0'
+
+  'Js console.warn()':
+    'prefix': 'cw'
+    'body': 'console.warn(${1:message});$0'

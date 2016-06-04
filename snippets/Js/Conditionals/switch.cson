@@ -1,0 +1,22 @@
+'.source.js, .source.jsx':
+
+  'Js switch':
+    'prefix': 'case'
+    'body': """
+    case ${1:data}:
+    \t${2:expression};
+    \tbreak;$0
+    """
+
+    'Js switch':
+      'prefix': 'switch'
+      'body': """
+      switch (${1:value}) {
+      \tcase ${1:data}:
+      \t\t${2:expression};
+      \t\tbreak;
+      \tdefault:
+      \t\t${2:expression};
+      \t\tbreak;
+      }$0
+      """

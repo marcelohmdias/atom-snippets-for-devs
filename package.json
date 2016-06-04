@@ -2,13 +2,14 @@
   "name": "atom-snippets-for-devs",
   "main": "./lib/atom-snippets-for-devs",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Snippets for Devs",
   "keywords": [
+    "Atom",
+    "Snippets",
+    "Frontend",
+    "Developer"
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-snippets-for-devs:toggle"
-  },
-  "repository": "https://github.com/atom/atom-snippets-for-devs",
+  "repository": "https://github.com/marcelohmdias/atom-snippets-for-devs",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

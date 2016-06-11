@@ -1,0 +1,16 @@
+'.source.js, .source.jsx':
+  'Js do while':
+    'prefix': 'do'
+    'body': 'do {\n\t${2:body}\n} while (${1:condition});$0'
+  'Js for':
+    'prefix': 'for'
+    'body': 'for (${1:var} ${2:i} = 0, ${3:len} = ${4:data}.length; ${2:i} < len; ${2:i}++) {\n\t${5:body}\n}$0'
+  'Js for in':
+    'prefix': 'forin'
+    'body': 'for (${1:var} ${2:property} in ${3:object}) {\n\t${4:body}\n}$0'
+  'Js for of':
+    'prefix': 'forof'
+    'body': 'for (${1:var} ${2:value} of ${3:iterable}) {\n\t${4:body}\n}$0'
+  'Js while':
+    'prefix': 'while'
+    'body': 'while (${1:condition}) {\n\t${2:body}\n}$0'

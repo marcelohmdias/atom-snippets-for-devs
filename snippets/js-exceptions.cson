@@ -1,0 +1,13 @@
+'.source.js, .source.jsx':
+  'Js catch':
+    'prefix': 'catch'
+    'body': 'catch (${1:err}) {\n\t${2:body}\n}$0'
+  'Js finally':
+    'prefix': 'finally'
+    'body': 'finally {\n\t${1:body}\n}$0'
+  'Js throw':
+    'prefix': 'throw'
+    'body': 'throw ${1:error};$0'
+  'Js try':
+    'prefix': 'try'
+    'body': 'try {\n\t${1:body}\n}$0'

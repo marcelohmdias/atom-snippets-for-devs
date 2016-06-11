@@ -1,0 +1,16 @@
+'.source.js, .source.jsx':
+  'Js storage.clear()':
+    'prefix': 'storage.clear'
+    'body': '${1:local|session}Storage.clear();$0'
+  'Js storage.getItem()':
+    'prefix': 'storage.get'
+    'body': '${1:local|session}Storage.getItem(\'${2:key}\');$0'
+  'Js storage.key()':
+    'prefix': 'storage.key'
+    'body': '${1:local|session}Storage.key(${2:id});$0'
+  'Js storage.removeItem()':
+    'prefix': 'storage.remove'
+    'body': '${1:local|session}Storage.removeItem(\'${2:key}\');$0'
+  'Js storage.setItem()':
+    'prefix': 'storage.set'
+    'body': '${1:local|session}Storage.setItem(\'${2:key}\', ${3:value});$0'

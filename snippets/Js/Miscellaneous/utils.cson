@@ -1,9 +1,0 @@
-'.source.js, .source.jsx':
-
-    'Js Debugger':
-      'prefix': 'debug'
-      'body': 'debugger;$0'
-
-    'JS Use Strict':
-      'prefix': 'strict'
-      'body': '\'use strict\';\n\n$0'

@@ -1,0 +1,7 @@
+'.source.js, .source.jsx':
+  'Js JSON.parse()':
+    'prefix': 'json.parse'
+    'body': 'JSON.parse(${1:string});${0: /* Parses a string as JSON. */}'
+  'Js JSON.stringify()':
+    'prefix': 'json.stringify'
+    'body': 'JSON.stringify(${1:json});${0: /* Converts a JavaScript value to a JSON string. */}'

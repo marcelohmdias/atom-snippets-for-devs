@@ -1,0 +1,49 @@
+'.source.js, .source.jsx':
+  'Js method every()':
+    'prefix': 'array.every'
+    'body': '${1:Array}.every(${2:function})${0:;}'
+  'Js method filter()':
+    'prefix': 'array.filter'
+    'body': '${1:Array}.filter(${2:function})${0:;}'
+  'Js method forEach()':
+    'prefix': 'array.forEach'
+    'body': '${1:Array}.forEach(${2:function})${0:;}'
+  'Js method isArray()':
+    'prefix': 'array.isArray'
+    'body': 'Array.isArray(${1:object})${0:;}'
+  'Js method join()':
+    'prefix': 'array.join'
+    'body': '${1:Array}.join(${2:separator})${0:;}'
+  'Js method map()':
+    'prefix': 'array.map'
+    'body': '${1:Array}.map(${2:function})${0:;}'
+  'Js properties pop()':
+    'prefix': 'array.pop'
+    'body': '${1:Array}.pop()${0:;}'
+  'Js method push()':
+    'prefix': 'array.push'
+    'body': '${1:Array}.push(${2:element})${0:;}'
+  'Js method reduce()':
+    'prefix': 'array.reduce'
+    'body': '${1:Array}.reduce(${2:function}, ${3:initialValue})${0:;}'
+  'Js method reduceRight()':
+    'prefix': 'array.reduceRight'
+    'body': '${1:Array}.reduceRight(${2:function}, ${3:initialValue})${4:;}$0'
+  'Js method reverse()':
+    'prefix': 'array.reverse'
+    'body': '${1:Array}.reverse()${0:;}'
+  'Js method shift()':
+    'prefix': 'array.shift'
+    'body': '${1:Array}.shift()${0:;}'
+  'Js method some()':
+    'prefix': 'array.some'
+    'body': '${1:Array}.some(${2:function})${0:;}'
+  'Js properties sort()':
+    'prefix': 'array.sort'
+    'body': '${1:Array}.sort(${2:function})${0:;}'
+  'Js method splice()':
+    'prefix': 'array.splice'
+    'body': '${1:Array}.splice(${2:index}, ${3:removed}, ${4:elements})${0:;}'
+  'Js method unshift()':
+    'prefix': 'array.unshift'
+    'body': '${1:Array}.unshift(${2:element})${0:;}'

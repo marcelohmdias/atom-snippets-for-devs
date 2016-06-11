@@ -1,0 +1,22 @@
+'.source.js, .source.jsx':
+  'Js method concat()':
+    'prefix': 'comm.concat'
+    'body': '${1:objects}.concat(${2:values})${0:;}'
+  'Js method indexOf()':
+    'prefix': 'comm.indexOf'
+    'body': '${1:objects}.indexOf(${2:value})${0:;}'
+  'Js method lastIndexOf()':
+    'prefix': 'comm.lastIndexOf'
+    'body': '${1:objects}.lastIndexOf(${2:value1, value2})${0:;}'
+  'Js method slice()':
+    'prefix': 'comm.slice'
+    'body': '${1:object}.slice(${2:begin}, ${3:end})${0:;}'
+  'Js method toString()':
+    'prefix': 'comm.toString'
+    'body': '${1:objects}.toString();${0: /* Returns a string representing object. */}'
+  'Js method valueOf()':
+    'prefix': 'comm.valueOf'
+    'body': '${1:objects}.valueOf();${0: /* Returns the primitive value of the object. */}'
+  'Js properties length':
+    'prefix': 'comm.length'
+    'body': '${1:objects}.length${0:;}'

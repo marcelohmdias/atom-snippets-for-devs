@@ -1,0 +1,22 @@
+'.source.js, .source.jsx':
+  'Js case':
+    'prefix': 'case'
+    'body': 'case ${1:data}:\n\t${2:expression};\n\tbreak;$0'
+  'Js else if':
+    'prefix': 'elif'
+    'body': 'else if (${1:condition}) {\n\t${2:expression}\n}$0'
+  'Js else':
+    'prefix': 'else'
+    'body': 'else {\n\t${1:expression}\n}$0'
+  'Js if':
+    'prefix': 'if'
+    'body': 'if (${1:condition}) {\n\t${2:body}\n}$0'
+  'Js if else':
+    'prefix': 'ife'
+    'body': 'if (${1:condition}) {\n\t${2:true expression}\n} else {\n\t${3:false expression}\n}$0'
+  'Js switch':
+    'prefix': 'switch'
+    'body': 'switch (${1:value}) {\n\tcase ${1:data}:\n\t\t${2:case expression};\n\t\tbreak;\n\tdefault:\n\t\t${3:default expression};\n\t\tbreak;\n}$0'
+  'Js ternary':
+    'prefix': 'ternary'
+    'body': '${1:condition} ? ${2:true expression} : ${3:false expression};$0'

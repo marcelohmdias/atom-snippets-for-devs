@@ -1,0 +1,19 @@
+'.source.js, .source.jsx':
+  'Js alert':
+    'prefix': 'alert'
+    'body': 'alert(${1:message});$0'
+  'Js confirm':
+    'prefix': 'confirm'
+    'body': 'confirm(\'${1:message}\');$0'
+  'Js debugger':
+    'prefix': 'debug'
+    'body': 'debugger;$0'
+  'Js prompt':
+    'prefix': 'prompt'
+    'body': 'prompt(\'${1:message}\');$0'
+  'Js return':
+    'prefix': 'return'
+    'body': 'return ${1:value};$0'
+  'JS use strict':
+    'prefix': 'strict'
+    'body': '\'use strict\';\n\n$0'

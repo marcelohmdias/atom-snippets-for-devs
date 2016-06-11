@@ -1,0 +1,10 @@
+'.source.js':
+  'NodeJS Exports':
+    'prefix': 'exp'
+    'body': 'exports.${1:module} = ${2:function};$0'
+  'NodeJS Module Export':
+    'prefix': 'mexp'
+    'body': 'module.exports = ${1:function};$0'
+  'NodeJS Require Module':
+    'prefix': 'req'
+    'body': 'require(\'${1:module}\');$0'

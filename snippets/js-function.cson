@@ -1,0 +1,16 @@
+'.source.js, .source.jsx':
+  'Js Anoynmous Function':
+    'prefix': 'afunc'
+    'body': 'function (${1:params}) {\n\t${2:body}\n}$0'
+  'Js Arrow Function':
+    'prefix': 'arfunc'
+    'body': '${1:params} => ${2:body}$0'
+  'Js Named Function':
+    'prefix': 'func'
+    'body': 'function ${1:name}(${2:params}) {\n\t${3:body}\n}$0'
+  'Js IIFE':
+    'prefix': 'iife'
+    'body': '(function (${1:window, document, undefined}) {\n\t${2:body}$0\n})(${1:window, document});'
+  'Js prototype':
+    'prefix': 'prot'
+    'body': '${1:object}.prototype.${2:method} = ${3:function}${4:;}$0'

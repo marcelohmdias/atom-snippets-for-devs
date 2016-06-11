@@ -1,17 +1,13 @@
 '.source.js, .source.jsx':
-
-  'GulpJS Create Task':
+  'GulpJS task()':
     'prefix': 'task'
     'body': 'gulp.task(\'${1:name}\', ${2:[\'${3:tasks}\']}, ${4:function});$0'
-
-  'GulpJS Function pipe()':
+  'GulpJS pipe()':
     'prefix': 'pipe'
     'body': '.pipe(${1:function})$0'
-
-  'GulpJS Function src()':
+  'GulpJS src()':
     'prefix': 'src'
     'body': 'gulp.src(\'${1:route}\')$0'
-
-  'GulpJS Function watch()':
+  'GulpJS watch()':
     'prefix': 'watch'
     'body':  'gulp.watch(${1:path}, [\'${2:tasks}\']).on(\'${3:event}\', ${4:function});$0'

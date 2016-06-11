@@ -1,13 +1,16 @@
 '.source.js, .source.jsx':
-
+  'Js attribute':
+    'prefix': 'attr'
+    'body': '${1:name}: ${2:value}$0'
   'Js const':
     'prefix': 'const'
     'body': 'const ${1:name} = ${2:value}${0:;}'
-
   'Js let':
     'prefix': 'let'
     'body': 'let ${1:name} = ${2:value}${0:;}'
-
+  'Js default params':
+    'prefix': 'params'
+    'body': '${1:param} = ${2:value}$0'
   'Js var':
     'prefix': 'var'
     'body': 'var ${1:name} = ${2:value}${0:;}'

@@ -1,0 +1,13 @@
+'.source.js, .source.jsx':
+  'Js clearInterval()':
+    'prefix': 'clearInterval'
+    'body': 'clearInterval(${1:function});$0'
+  'Js clearTimeout()':
+    'prefix': 'clearTimeout'
+    'body': 'clearTimeout(${1:function});$0'
+  'Js setInterval()':
+    'prefix': 'setInterval'
+    'body': 'setInterval(${2:function}, ${1:delay});$0'
+  'Js setTimeout()':
+    'prefix': 'setTimeout'
+    'body': 'setTimeout(${2:function}, ${1:delay});$0'

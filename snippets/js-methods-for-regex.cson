@@ -1,0 +1,7 @@
+'.source.js, .source.jsx':
+  'Js RegEx.exec()':
+    'prefix': 'regex.exec'
+    'body': '${1:RegEx}.exec(${2:value})${0:;}'
+  'Js RegEx.exec()':
+    'prefix': 'regex.test'
+    'body': '${1:RegEx}.test(${2:string})${0:;}'

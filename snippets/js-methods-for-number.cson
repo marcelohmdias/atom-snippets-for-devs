@@ -1,0 +1,7 @@
+'.source.js, .source.jsx':
+  'Js parseFloat()':
+    'prefix': 'num.parseFloat'
+    'body': 'parseFloat(${1:value})${0:;}'
+  'Js parseInt()':
+    'prefix': 'num.parseInt'
+    'body': 'parseInt(${1:value}, ${2:radix})${0:;}'

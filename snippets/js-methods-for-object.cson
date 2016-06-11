@@ -1,0 +1,19 @@
+'.source.js, .source.jsx':
+  'Js Object.assign()':
+    'prefix': 'obj.assign'
+    'body': 'Object.assign(${1:object1}, ${2:object2});${0:/* Mixin attributes. */}'
+  'Js Object.hasOwnProperty()':
+    'prefix': 'obj.has'
+    'body': '${1:Object}.hasOwnProperty(\'${2:properties}\');${0:/* Indicating whether the object has the property. */}'
+  'Js Object.getPrototypeOf()':
+    'prefix': 'obj.getProto'
+    'body': 'Object.getPrototypeOf(${1:object});${0:/* Returns the prototype. */}'
+  'Js Object.is()':
+    'prefix': 'obj.is'
+    'body': 'Object.is(${1:value1}, ${:value2});${0:/* Determines whether two values ​​are equal. */}'
+  'Js Object.keys()':
+    'prefix': 'obj.keys'
+    'body': '${1:Object}.keys(${2:object});${0: /* Returns an array of properties of object. */}'
+  'Js Object.isPrototypeOf()':
+    'prefix': 'obj.isProto'
+    'body': '${1:Object}.isPrototypeOf(${2:object});${0:/* Tests for an object in another object. */}}'

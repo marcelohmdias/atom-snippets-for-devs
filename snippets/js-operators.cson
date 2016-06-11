@@ -1,0 +1,19 @@
+'.source.js, .source.jsx':
+  'Js delete':
+    'prefix': 'delete'
+    'body': 'delete ${1:object};$0'
+  'Js in':
+    'prefix': 'in'
+    'body': '${1:prop} in ${2:object}$0'
+  'Js instanceof':
+    'prefix': 'instanceof'
+    'body': '${1:object} instanceof ${2:constructor}$0'
+  'Js new':
+    'prefix': 'new'
+    'body': 'new ${1:Function};$0'
+  'Js spread':
+    'prefix': 'spread'
+    'body': '...${1:expression}$0'
+  'Js typeof':
+    'prefix': 'isproto'
+    'body': 'typeof ${1:expression}$0'

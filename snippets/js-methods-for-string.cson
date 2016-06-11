@@ -1,0 +1,28 @@
+'.source.js, .source.jsx':
+  'Js String.charAt()':
+    'prefix': 'str.charAt'
+    'body': '${1:String}.charAt(${2:index})${0:;}'
+  'Js String.match()':
+    'prefix': 'str.match'
+    'body': '${1:String}.match(${2:RegEx})${0:;}'
+  'Js String.repeat()':
+    'prefix': 'str.repeat'
+    'body': '${1:String}.repeat(${2:count})${0:;}'
+  'Js String.replace()':
+    'prefix': 'str.replace'
+    'body': '${1:String}.replace(${2:\'string|RegEx\'}, ${3: \'string|function\'})${0:;}'
+  'Js String.search()':
+    'prefix': 'str.search'
+    'body': '${1:String}.search(${2:\'string|RegEx\'})${0:;}'
+  'Js String.substr()':
+    'prefix': 'str.substr'
+    'body': '${1:String}.substr(${2:begin}, ${3:end})${0:;}'
+  'Js String.toLowerCase()':
+    'prefix': 'str.toLowerCase'
+    'body': '${1:String}.toLowerCase()${0:;}'
+  'Js String.toUpperCase()':
+    'prefix': 'str.toUpperCase'
+    'body': '${1:String}.toUpperCase()${0:;}'
+  'Js String.trim()':
+    'prefix': 'str.trim'
+    'body': '${1:String}.trim()${0:;}'

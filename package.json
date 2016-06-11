@@ -3,6 +3,9 @@
   "main": "./lib/atom-snippets-for-devs",
   "version": "0.5.0",
   "description": "Snippets for Devs",
+  "engines": {
+    "atom": "*"
+  },
   "keywords": [
     "Atom",
     "Snippets",

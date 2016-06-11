@@ -1,0 +1,13 @@
+'.source.js, .source.jsx':
+  'Js addEventListener()':
+    'prefix': 'event.add'
+    'body': '${1:document}.addEventListener(\'${2:event}\', ${3:function}, ${4:capture})${0:;}'
+  'Js preventDefault()':
+    'prefix': 'event.prevent'
+    'body': '${1:event}.preventDefault();$0'
+  'Js removeEventListener()':
+    'prefix': 'event.remove'
+    'body': '${1:document}.removeEventListener(\'${2:event}\', ${3:function}, ${4:capture})${0:;}'
+  'Js stopPropagation()':
+    'prefix': 'event.stop'
+    'body': '${1:event}.stopPropagation();$0'

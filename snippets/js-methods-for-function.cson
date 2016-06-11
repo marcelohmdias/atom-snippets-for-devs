@@ -1,0 +1,10 @@
+'.source.js, .source.jsx':
+  'Js apply()':
+    'prefix': 'apply'
+    'body': '${1:method}.apply(${2:context}, [${3:arguments}]);$0'
+  'Js bind()':
+    'prefix': 'bind'
+    'body': '${1:method}.bind(${2:arguments});$0'
+  'Js call()':
+    'prefix': 'call'
+    'body': '${1:method}.call(${2:context}, ${3:argument1, argument2});$0'

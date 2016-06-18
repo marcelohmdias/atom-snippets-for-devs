@@ -1,22 +1,22 @@
 '.source.js, .source.jsx':
   'Js class create':
     'prefix': 'class'
-    'body': 'class ${1:class} ${2:extends class}{\n\t${3:body}\n}$0'
+    'body': 'class ${1:className} ${2:extends parentClass}{\n\t${3:body}\n}$0'
   'Js constructor()':
-    'prefix': 'constructor'
-    'body': 'constructor(${1:param1, param2}) {\n\t${2:body}zn}$0'
-  'Js extends class':
-    'prefix': 'extends'
-    'body': 'extends ${1:class} $0'
+    'prefix': 'construct'
+    'body': 'constructor(${1:params}) {\n\t${2:body}\n}'
   'Js method get':
     'prefix': 'getm'
     'body':  'get ${1:method} () {\n\t${2:body}\n}$0'
+  'Js extends class':
+    'prefix': 'extends'
+    'body': 'extends ${1:className} $0'
   'Js method set':
     'prefix': 'setm'
-    'body': 'set ${1:method} (${2:param}) {\n\t${3:body}\n}$0'
+    'body': 'set ${1:method} (${2:params}) {\n\t${3:body}\n}$0'
   'Js static method':
     'prefix': 'static'
     'body': 'static ${1:method}$0'
   'Js super()':
     'prefix': 'super'
-    'body':  'super(${1:param1, param2});$0'
+    'body':  'super(${1:params});$0'

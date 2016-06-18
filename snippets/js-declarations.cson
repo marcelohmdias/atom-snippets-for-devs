@@ -11,6 +11,9 @@
   'Js default params':
     'prefix': 'params'
     'body': '${1:param} = ${2:value}$0'
+  'Js this':
+    'prefix': 'this'
+    'body': 'this.${1:name} = ${2:value}$0'
   'Js var':
     'prefix': 'var'
     'body': 'var ${1:name} = ${2:value}${0:;}'

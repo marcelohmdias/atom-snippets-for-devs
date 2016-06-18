@@ -15,5 +15,5 @@
     'prefix': 'spread'
     'body': '...${1:expression}$0'
   'Js typeof':
-    'prefix': 'isproto'
+    'prefix': 'typeof'
     'body': 'typeof ${1:expression}$0'

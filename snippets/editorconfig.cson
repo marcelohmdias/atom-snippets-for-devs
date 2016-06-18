@@ -1,16 +1,4 @@
-'.source.editorconfig':
+"*":
   'Editorconfig':
     'prefix': 'editorconfig'
-    'body': """
-            # This file is for unifying the coding style for different editors and IDEs
-            # editorconfig.org
-            root = true
-
-            [*]
-            charset = utf-8
-            end_of_line = lf
-            indent_size = 2
-            indent_style = space
-            insert_final_newline = true
-            trim_trailing_whitespace = true
-            """
+    'body': '# This file is for unifying the coding style for different editors and IDEs\n# editorconfig.org\nroot = true\n\n[*]\ncharset = utf-8\nend_of_line = lf\nindent_size = 2\nindent_style = space\ninsert_final_newline = true\ntrim_trailing_whitespace = true'

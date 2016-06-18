@@ -1,0 +1,4 @@
+"*":
+  "Git Ignore":
+    'prefix': "ign"
+    'body': 'logs/\n*.log\nnode_modules/\nbower_components/\n'

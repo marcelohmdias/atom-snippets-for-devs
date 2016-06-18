@@ -1,7 +1,7 @@
 {
   "name": "atom-snippets-for-devs",
   "main": "./lib/atom-snippets-for-devs",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Snippets for Devs",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -1,7 +1,7 @@
 '.source.js, .source.jsx':
   'Js attribute':
     'prefix': 'attr'
-    'body': '${1:name}: ${2:value}$0'
+    'body': '${1:name}: ${2:value}${0:,}'
   'Js const':
     'prefix': 'const'
     'body': 'const ${1:name} = ${2:value}${0:;}'
@@ -9,11 +9,11 @@
     'prefix': 'let'
     'body': 'let ${1:name} = ${2:value}${0:;}'
   'Js default params':
-    'prefix': 'params'
+    'prefix': 'param'
     'body': '${1:param} = ${2:value}$0'
   'Js this':
     'prefix': 'this'
-    'body': 'this.${1:name} = ${2:value}$0'
+    'body': 'this.${1:name} = ${2:value}${0:;}'
   'Js var':
     'prefix': 'var'
     'body': 'var ${1:name} = ${2:value}${0:;}'

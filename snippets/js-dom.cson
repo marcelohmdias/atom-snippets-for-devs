@@ -1,33 +1,33 @@
 '.source.js, .source.jsx':
   'Js hasAttribute()':
-    'prefix': 'hasAttr'
+    'prefix': 'doc.hasAttr'
     'body': '${1:document}.hasAttribute(\'${2:attr}\')${0:;}'
   'Js innerHTML':
-    'prefix': 'innerHTML'
+    'prefix': 'elem.innerHTML'
     'body': '${1:element}.innerHTML = ${2:content}${0:;}'
   'Js appendChild()':
-    'prefix': 'append'
+    'prefix': 'dom.append'
     'body': '${1:document}.appendChild(${2:element})${0:;}'
   'Js classList.add()':
-    'prefix': 'clAdd'
+    'prefix': 'dom.classListAdd'
     'body': '${1:document}.classList.add(\'${2:class}\')${0:;}'
   'Js classList.remove()':
-    'prefix': 'clRem'
+    'prefix': 'dom.classListRem'
     'body': '${1:document}.classList.remove(\'${2:class}\')${0:;}'
   'Js classList.toggle()':
-    'prefix': 'clTog'
+    'prefix': 'dom.classListTog'
     'body': '${1:document}.classList.toggle(\'${2:class}\')${0:;}'
   'Js createDocumentFragment()':
-    'prefix': 'cDocF'
+    'prefix': 'dom.createDocF'
     'body': '${1:document}.createDocumentFragment(${2:element})${0:;}'
   'Js createElement()':
-    'prefix': 'cElem'
+    'prefix': 'dom.createElement'
     'body': '${1:document}.createElement(${2:element})${0:;}'
   'Js createTextNode()':
-    'prefix': 'ctxtn'
+    'prefix': 'dom.createTextNode'
     'body': '${1:document}.createTextNode(\'${2:text}\')${0:;}'
   'Js getAttribute()':
-    'prefix': 'getAttr'
+    'prefix': 'dom.getAttr'
     'body': '${1:document}.getAttribute(\'${2:attr}\')${0:;}'
   'Js getElementsByClassName()':
     'prefix': 'dom.getClass'
@@ -45,14 +45,14 @@
     'prefix': 'dom.queryAll'
     'body': '${1:document}.querySelectorAll(\'${2:selector}\')${0:;}'
   'Js removeAttribute()':
-    'prefix': 'remAttr'
+    'prefix': 'dom.remAttr'
     'body': '${1:document}.removeAttribute(\'${2:attr}\')${0:;}'
   'Js removeChild()':
-    'prefix': 'remChild'
+    'prefix': 'dom.remChild'
     'body': '${1:document}.removeChild(${2:element})${0:;}'
   'Js setAttribute()':
-    'prefix': 'setAttr'
+    'prefix': 'dom.setAttr'
     'body': '${1:document}.setAttribute(\'${2:attr}\', ${3:value})${0:;}'
   'Js textContent':
-    'prefix': 'txtCont'
+    'prefix': 'dom.txtCont'
     'body': '${1:document}.textContent = \'${2:content}\'${0:;}'

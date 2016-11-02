@@ -16,4 +16,4 @@
     'body': 'return ${1:value};$0'
   'JS use strict':
     'prefix': 'strict'
-    'body': '\'use strict\';\n\n$0'
+    'body': '\'use strict\'${0:;}'

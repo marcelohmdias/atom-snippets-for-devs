@@ -1,7 +1,7 @@
 '.source.js, .source.jsx':
   'Js export':
     'prefix': 'export'
-    'body': 'export ${1:method}$0'
+    'body': 'export${2: default }${2:method}${0:;}'
   'Js import':
     'prefix': 'import'
-    'body': 'import ${1:method} from \'${2:module}\'$0'
+    'body': 'import ${1:method} from \'${2:module}\'${0:;}'

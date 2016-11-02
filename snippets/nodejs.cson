@@ -7,4 +7,4 @@
     'body': 'module.exports = ${1:function};$0'
   'NodeJS Require Module':
     'prefix': 'req'
-    'body': 'require(\'${1:module}\');$0'
+    'body': 'require(\'${1:module}\')${0:;}'

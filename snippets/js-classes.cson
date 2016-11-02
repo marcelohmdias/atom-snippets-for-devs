@@ -1,10 +1,10 @@
 '.source.js, .source.jsx':
   'Js class create':
     'prefix': 'class'
-    'body': 'class ${1:className} ${2:extends parentClass}{\n\t${3:body}\n}$0'
+    'body': 'class ${1:className}${2:extends class}{\n\t${3:body}\n}$0'
   'Js constructor()':
     'prefix': 'construct'
-    'body': 'constructor(${1:params}) {\n\t${2:body}\n}'
+    'body': 'constructor (${1:params}) {\n\t${2:body}\n}'
   'Js method get':
     'prefix': 'getm'
     'body':  'get ${1:method} () {\n\t${2:body}\n}$0'

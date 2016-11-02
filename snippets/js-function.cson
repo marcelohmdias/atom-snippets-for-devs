@@ -1,16 +1,22 @@
 '.source.js, .source.jsx':
   'Js Anoynmous Function':
     'prefix': 'afunc'
-    'body': 'function (${1:params}) {\n\t${2:body}\n}$0'
+    'body': 'function (${1:params}) {\n\t${2:body}\n}'
   'Js Arrow Function':
     'prefix': 'arfunc'
-    'body': '${1:params} => ${2:body}$0'
+    'body': '${1:params} => ${2:body}'
   'Js Named Function':
     'prefix': 'func'
-    'body': 'function ${1:name} (${2:params}) {\n\t${3:body}\n}$0'
+    'body': 'function ${1:name} (${2:params}) {\n\t${3:body}\n}'
+  'Js Generator Anoynmous Function':
+    'prefix': 'gafunc'
+    'body': 'function * (${1:params}) {\n\t${2:body}\n}'
+  'Js Generator Named Function':
+    'prefix': 'gfunc'
+    'body': 'function * ${1:name} (${2:params}) {\n\t${3:body}\n}'
   'Js IIFE':
     'prefix': 'iife'
     'body': '(function (${1:window, document, undefined}) {\n\t${2:body}$0\n})(${1:window, document});'
   'Js prototype':
     'prefix': 'proto'
-    'body': '${1:object}.prototype.${2:method} = ${3:function}${4:;}$0'
+    'body': '${1:object}.prototype.${2:method} = ${3:function}${0:;}'

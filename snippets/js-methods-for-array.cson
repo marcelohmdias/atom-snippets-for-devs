@@ -5,9 +5,21 @@
   'Js method filter()':
     'prefix': 'array.filter'
     'body': '${1:Array}.filter(${2:function})${0:;}'
+  'Js method find()':
+    'prefix': 'array.find'
+    'body': '${1:Array}.find(${2:function})${0:;}'
+  'Js method findIndex()':
+    'prefix': 'array.findIndex'
+    'body': '${1:Array}.findIndex(${2:function})${0:;}'
   'Js method forEach()':
     'prefix': 'array.forEach'
     'body': '${1:Array}.forEach(${2:function})${0:;}'
+  'Js method from()':
+    'prefix': 'array.from'
+    'body': '${1:Array}.from(${2:array-like}${3:, function})${0:;}'
+  'Js method includesf()':
+    'prefix': 'array.includes'
+    'body': 'Array.includes(${1:object})${0:;}'
   'Js method isArray()':
     'prefix': 'array.isArray'
     'body': 'Array.isArray(${1:object})${0:;}'

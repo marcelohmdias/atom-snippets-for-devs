@@ -2,6 +2,9 @@
   'Js String.charAt()':
     'prefix': 'str.charAt'
     'body': '${1:String}.charAt(${2:index})${0:;}'
+  'Js String.endsWith()':
+    'prefix': 'str.endsWith'
+    'body': '${1:String}.endsWith(${2:value})${0:;}'
   'Js String.match()':
     'prefix': 'str.match'
     'body': '${1:String}.match(${2:RegEx})${0:;}'
@@ -14,9 +17,15 @@
   'Js String.search()':
     'prefix': 'str.search'
     'body': '${1:String}.search(${2:\'string|RegEx\'})${0:;}'
+  'Js String.startsWith()':
+    'prefix': 'str.startsWith'
+    'body': '${1:String}.startsWith(${2:value})${0:;}'
   'Js String.substr()':
     'prefix': 'str.substr'
     'body': '${1:String}.substr(${2:begin}, ${3:end})${0:;}'
+  'Js String.substring()':
+    'prefix': 'str.substring'
+    'body': '${1:String}.substring(${2:begin}, ${3:end})${0:;}'
   'Js String.toLowerCase()':
     'prefix': 'str.toLowerCase'
     'body': '${1:String}.toLowerCase()${0:;}'

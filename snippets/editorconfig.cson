@@ -1,4 +1,0 @@
-"*":
-  'Editorconfig':
-    'prefix': 'editorconfig'
-    'body': '# This file is for unifying the coding style for different editors and IDEs\n# editorconfig.org\nroot = true\n\n[*]\ncharset = utf-8\nend_of_line = lf\nindent_size = 2\nindent_style = space\ninsert_final_newline = true\ntrim_trailing_whitespace = true'
